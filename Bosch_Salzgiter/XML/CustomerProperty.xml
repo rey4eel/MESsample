@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Property>
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category></Category>
+    <Caption>File Export</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Name>Basic_Category</Name>
+    <Properties></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <Keep>True</Keep>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Check</Type>
+    <Category>Basic_Category</Category>
+    <Caption>Use FileExport</Caption>
+    <Name>chkFileExport</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>FolderDialog</Type>
+    <Category>Basic_Category</Category>
+    <Caption>Destination Path</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Name>FileExportDestPath</Name>
+    <Properties></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <Keep>True</Keep>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Basic_Category</Category>
+    <Caption>FileName</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Name>XSLT_FileName</Name>
+    <Properties></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <Keep>False</Keep>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Basic_Category</Category>
+    <Caption>Contents</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Name>XSLT_Contents</Name>
+    <Properties></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <Keep>False</Keep>
+</Row>
+
+
+
+
+
+
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>MachinePCHK</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>SideJob</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>typeNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>LaneReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>SideReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>BarcodeReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>TypeNoReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>TypeVarReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>workingCodeReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>Lane</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>Side</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>ProcessNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>JobName</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>ChangeJobName</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>Barcode</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>errorNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>statIdx</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>errorText</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>errorType</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>errorState</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip></ToolTip>
+    <Name>CallFrom</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Category</Type>
+    <Caption>Network</Caption>
+    <Name>Network</Name>
+    <Values></Values>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>Network</Category>
+    <Caption>Timeout (sec)</Caption>
+    <ToolTip>Timeout time if no response telegram reached the system</ToolTip>
+    <Name>Timeout</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Network</Category>
+    <Caption>Timeout Message</Caption>
+    <ToolTip>Timeout meessage if No response telegram reached the system.</ToolTip>
+    <Name>TimeoutMessage</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Network</Category>
+    <Caption>MES Server Connection Fail Message</Caption>
+    <ToolTip>MES Server Connection fail message</ToolTip>
+    <Name>ConnFailMessage</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Category</Type>
+    <Caption>Judge Code</Caption>
+    <Name>JudgeCode</Name>
+    <Values></Values>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>JudgeCode</Category>
+    <Caption>Result Good</Caption>
+    <ToolTip>Result Good</ToolTip>
+    <Name>ResultGood</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>JudgeCode</Category>
+    <Caption>Result Bad</Caption>
+    <ToolTip>Result Bad</ToolTip>
+    <Name>ResultBad</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>JudgeCode</Category>
+    <Caption>State Part OK</Caption>
+    <ToolTip>State Part OK</ToolTip>
+    <Name>PartOK</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>JudgeCode</Category>
+    <Caption>State Part NOK</Caption>
+    <ToolTip>State Part NOK</ToolTip>
+    <Name>PartNOK</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>JudgeCode</Category>
+    <Caption>Array Badmark</Caption>
+    <ToolTip>Array Badmark</ToolTip>
+    <Name>ArrayBadmark</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Category</Type>
+    <Caption>Machine</Caption>
+    <Name>Machine</Name>
+    <Values></Values>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>Machine</Category>
+    <Caption>lineNo</Caption>
+    <ToolTip>Line number</ToolTip>
+    <Name>lineNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>Machine</Category>
+    <Caption>machineID</Caption>
+    <ToolTip>Machine ID</ToolTip>
+    <Name>machineID</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Machine</Category>
+    <Caption>statNo</Caption>
+    <ToolTip>Station number</ToolTip>
+    <Name>statNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Machine</Category>
+    <Caption>Default typeNo</Caption>
+    <ToolTip>Default typeNo</ToolTip>
+    <Name>DefaultTypeNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Machine</Category>
+    <Caption>Default typeVar</Caption>
+    <ToolTip>Default typeVar</ToolTip>
+    <Name>DefaultTypeVar</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>Machine</Category>
+    <Caption>workingCode</Caption>
+    <ToolTip>workingCode</ToolTip>
+    <Name>workingCode</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<!--
+<Row>
+    <Section>AOI</Section>
+    <Type>Check</Type>
+    <Category>Machine</Category>
+    <Caption>Use "Program Changed By Side(nextWorkPos) Checking"</Caption>
+    <ToolTip>Use "Program Changed By Side(nextWorkPos) Checking"</ToolTip>
+    <Name>UseProgramChangedBySide</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+-->
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>Machine</Category>
+    <Caption>eventId</Caption>
+    <ToolTip>eventId</ToolTip>
+    <Name>eventId</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Check</Type>
+    <Category>Machine</Category>
+    <Caption>modeOn</Caption>
+    <ToolTip>modeOn</ToolTip>
+    <Name>modeOn</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>Machine</Category>
+    <Caption>operationMode</Caption>
+    <ToolTip>operationMode</ToolTip>
+    <Name>operationMode</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>Machine</Category>
+    <Caption>specPrgNo</Caption>
+    <ToolTip>specPrgNo</ToolTip>
+    <Name>specPrgNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>Machine</Category>
+    <Caption>shift</Caption>
+    <ToolTip>shift</ToolTip>
+    <Name>shift</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Machine</Category>
+    <Caption>charge</Caption>
+    <ToolTip>charge</ToolTip>
+    <Name>charge</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Machine</Category>
+    <Caption>chainNo</Caption>
+    <ToolTip>chainNo</ToolTip>
+    <Name>chainNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<!--
+<Row>
+    <Section>AOI</Section>
+    <Type>Check</Type>
+    <Category>Machine</Category>
+    <Caption>Machine NG "partProcessed" Report After Review</Caption>
+    <ToolTip>Machine NG "partProcessed" Report After Review</ToolTip>
+    <Name>ChkMachineNGReportAfterReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+-->
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Machine</Category>
+    <Caption>Board "partForStation = false" in ACK_partReceived</Caption>
+    <ToolTip>Board "partForStation = false" in ACK_partReceived</ToolTip>
+    <Name>BoardBadmarkMessage</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Machine</Category>
+    <Caption>All arrays "partForStation = false" in ACK_partReceived</Caption>
+    <ToolTip>All arrays "partForStation = false" in ACK_partReceived</ToolTip>
+    <Name>AllArrayBadmarkMessage</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Machine</Category>
+    <Caption>Array Count Different Message</Caption>
+    <ToolTip>Array Count Different Message</ToolTip>
+    <Name>ArrayCountDifferentMessage</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Category</Type>
+    <Caption>Review</Caption>
+    <Name>Review</Name>
+    <Values></Values>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Review</Category>
+    <Caption>statNoReview</Caption>
+    <ToolTip>statNo for Review</ToolTip>
+    <Name>statNoReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Review</Category>
+    <Caption>processNoReview</Caption>
+    <ToolTip>processNo for Review</ToolTip>
+    <Name>processNoReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>Review</Category>
+    <Caption>processNameReview</Caption>
+    <ToolTip>processName for Review</ToolTip>
+    <Name>processNameReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Category</Type>
+    <Caption>Top Side</Caption>
+    <Name>TopSide</Name>
+    <Values></Values>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>TopSide</Category>
+    <Caption>Program Suffix</Caption>
+    <ToolTip>Program Suffix</ToolTip>
+    <Name>TopProgramSuffix</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>TopSide</Category>
+    <Caption>Program Parameter Name Values (delimiter ";")</Caption>
+    <ToolTip>Program Parameter Name Values</ToolTip>
+    <Name>TopProgramName</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+
+<Row>
+    <Section>AOI</Section>
+    <Type>Category</Type>
+    <Caption>Bottom Side</Caption>
+    <Name>BottomSide</Name>
+    <Values></Values>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>BottomSide</Category>
+    <Caption>Program Suffix</Caption>
+    <ToolTip>Program Suffix</ToolTip>
+    <Name>BottomProgramSuffix</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>BottomSide</Category>
+    <Caption>Program Parameter Name Values (delimiter ";")</Caption>
+    <ToolTip>Program Parameter Name Values</ToolTip>
+    <Name>BottomProgramName</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Category</Type>
+    <Caption>Front Lane</Caption>
+    <Name>FrontLane</Name>
+    <Values></Values>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>FrontLane</Category>
+    <Caption>statIdx</Caption>
+    <ToolTip>Station index</ToolTip>
+    <Name>FrontStatIdx</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>FrontLane</Category>
+    <Caption>fuNo</Caption>
+    <ToolTip>Function unit index</ToolTip>
+    <Name>FrontFuNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>FrontLane</Category>
+    <Caption>toolPos (Top)</Caption>
+    <ToolTip>Tool position (Top)</ToolTip>
+    <Name>FrontTopToolPos</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>FrontLane</Category>
+    <Caption>toolPos (Bottom)</Caption>
+    <ToolTip>Tool position (Bottom)</ToolTip>
+    <Name>FrontBottomToolPos</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>FrontLane</Category>
+    <Caption>workPos (Top)</Caption>
+    <ToolTip>work Position (Top)</ToolTip>
+    <Name>FrontTopWorkPos</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>FrontLane</Category>
+    <Caption>workPos (Bottom)</Caption>
+    <ToolTip>work Position (Bottom)</ToolTip>
+    <Name>FrontBottomWorkPos</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>FrontLane</Category>
+    <Caption>processNo (Top)</Caption>
+    <ToolTip>processNo (Top)</ToolTip>
+    <Name>FrontTopProcessNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>FrontLane</Category>
+    <Caption>processNo (Bottom)</Caption>
+    <ToolTip>processNo (Bottom)</ToolTip>
+    <Name>FrontBottomProcessNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>FrontLane</Category>
+    <Caption>processName</Caption>
+    <ToolTip>Name of the process</ToolTip>
+    <Name>FrontProcessName</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>FrontLane</Category>
+    <Caption>application</Caption>
+    <ToolTip>Name of the aplication which has fired the event</ToolTip>
+    <Name>FrontApplication</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>FrontLane</Category>
+    <Caption>typeNo</Caption>
+    <ToolTip>typeNo</ToolTip>
+    <Name>FrontTypeNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip>typeVar</ToolTip>
+    <Name>COFrontTypeVar</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip>typeNo</ToolTip>
+    <Name>COFrontTypeNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip>typeVar</ToolTip>
+    <Name>CORearTypeVar</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <ToolTip>typeNo</ToolTip>
+    <Name>CORearTypeNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>FrontLane</Category>
+    <Caption>typeVar</Caption>
+    <ToolTip>typeVar</ToolTip>
+    <Name>FrontTypeVar</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Category</Type>
+    <Caption>Rear Lane</Caption>
+    <Name>RearLane</Name>
+    <Values></Values>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>RearLane</Category>
+    <Caption>statIdx</Caption>
+    <ToolTip>Station index</ToolTip>
+    <Name>RearStatIdx</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>RearLane</Category>
+    <Caption>fuNo</Caption>
+    <ToolTip>Function unit index</ToolTip>
+    <Name>RearFuNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>RearLane</Category>
+    <Caption>toolPos (Top)</Caption>
+    <ToolTip>Tool position (Top)</ToolTip>
+    <Name>RearTopToolPos</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>RearLane</Category>
+    <Caption>toolPos (Bottom)</Caption>
+    <ToolTip>Tool position (Bottom)</ToolTip>
+    <Name>RearBottomToolPos</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>RearLane</Category>
+    <Caption>workPos (Top)</Caption>
+    <ToolTip>work position (Top)</ToolTip>
+    <Name>RearTopWorkPos</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>RearLane</Category>
+    <Caption>workPos (Bottom)</Caption>
+    <ToolTip>work position (Bottom)</ToolTip>
+    <Name>RearBottomWorkPos</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>RearLane</Category>
+    <Caption>processNo (Top)</Caption>
+    <ToolTip>processNo (Top)</ToolTip>
+    <Name>RearTopProcessNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Decimal</Type>
+    <Category>RearLane</Category>
+    <Caption>processNo (Bottom)</Caption>
+    <ToolTip>processNo (Bottom)</ToolTip>
+    <Name>RearBottomProcessNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>RearLane</Category>
+    <Caption>processName</Caption>
+    <ToolTip>Name of the process</ToolTip>
+    <Name>RearProcessName</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>RearLane</Category>
+    <Caption>application</Caption>
+    <ToolTip>Name of the aplication which has fired the event</ToolTip>
+    <Name>RearApplication</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>RearLane</Category>
+    <Caption>typeNo</Caption>
+    <ToolTip>typeNo</ToolTip>
+    <Name>RearTypeNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>RearLane</Category>
+    <Caption>typeVar</Caption>
+    <ToolTip>typeVar</ToolTip>
+    <Name>RearTypeVar</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Category</Type>
+    <Caption>Script</Caption>
+    <Name>Script</Name>
+    <Values></Values>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>partReceived</Caption>
+    <ToolTip>partReceived</ToolTip>
+    <Name>partReceived</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>partReceivedReview</Caption>
+    <ToolTip>partReceivedReview</ToolTip>
+    <Name>partReceivedReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>plcChangeOverStarted</Caption>
+    <ToolTip>(Machine->MES) Job Information Request</ToolTip>
+    <Name>plcChangeOverStarted</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>plcChangeOver</Caption>
+    <ToolTip>(Machine->MES) Job Changed Report</ToolTip>
+    <Name>plcChangeOver</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>partProcessingStarted</Caption>
+    <ToolTip>(Machine->MES) Inspection Started Report</ToolTip>
+    <Name>partProcessingStarted</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>partProcessingAborted</Caption>
+    <ToolTip>(Machine->MES) Inspection Aborted Report</ToolTip>
+    <Name>partProcessingAborted</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>partProcessed</Caption>
+    <ToolTip>(Machine->MES) Inspection Completed Report</ToolTip>
+    <Name>partProcessed</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>partProcessedReview</Caption>
+    <ToolTip>(Review->MES) Review Completed Report</ToolTip>
+    <Name>partProcessedReview</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>plcError</Caption>
+    <ToolTip>(Machine->MES) Station Error Report</ToolTip>
+    <Name>plcError</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>plcOperationModeChanged</Caption>
+    <ToolTip>(Machine->MES) Operation Mode Changed Report</ToolTip>
+    <Name>plcOperationModeChanged</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>dataUploadRequired</Caption>
+    <ToolTip>(Machine->MES) dataUploadRequired</ToolTip>
+    <Name>dataUploadRequired</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>dataUploadRequiredDaily</Caption>
+    <ToolTip>(Machine->MES) dataUploadRequiredDaily</ToolTip>
+    <Name>dataUploadRequiredDaily</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>dataDownloadRequired</Caption>
+    <ToolTip>(Machine->MES) dataDownloadRequired</ToolTip>
+    <Name>dataDownloadRequired</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>plcToolChangeStarted</Caption>
+    <ToolTip>(Machine->MES) plcToolChangeStarted</ToolTip>
+    <Name>plcToolChangeStarted</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>plcToolChanged</Caption>
+    <ToolTip>(Machine->MES) plcToolChanged</ToolTip>
+    <Name>plcToolChanged</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>plcPartsMissingStarted</Caption>
+    <ToolTip>(Machine->MES) plcPartsMissingStarted</ToolTip>
+    <Name>plcPartsMissingStarted</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>plcPartsMissing</Caption>
+    <ToolTip>(Machine->MES) plcPartsMissing</ToolTip>
+    <Name>plcPartsMissing</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>plcJamStarted</Caption>
+    <ToolTip>(Machine->MES) plcJamStarted</ToolTip>
+    <Name>plcJamStarted</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>XSLT</Type>
+    <Category>Script</Category>
+    <Caption>plcJam</Caption>
+    <ToolTip>(Machine->MES) plcJam</ToolTip>
+    <Name>plcJam</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Category</Type>
+    <Caption>dataUploadRequired daily update (Transfer time: 01:00:00)</Caption>
+    <Name>dataUploadRequiredStatus</Name>
+    <Values></Values>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>machineDescription</Caption>
+    <ToolTip>machineDescription</ToolTip>
+    <Name>machineDescription</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>machineSupplier</Caption>
+    <ToolTip>machineSupplier</ToolTip>
+    <Name>machineSupplier</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>machineType</Caption>
+    <ToolTip>machineType</ToolTip>
+    <Name>machineType</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>machineProductionYear</Caption>
+    <ToolTip>machineProductionYear</ToolTip>
+    <Name>machineProductionYear</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>serialNumber</Caption>
+    <ToolTip>serialNumber</ToolTip>
+    <Name>serialNumber</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>machineSystemSoftware</Caption>
+    <ToolTip>machineSystemSoftware</ToolTip>
+    <Name>machineSystemSoftware</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>softwareServicePack</Caption>
+    <ToolTip>softwareServicePack</ToolTip>
+    <Name>softwareServicePack</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>plant</Caption>
+    <ToolTip>plant</ToolTip>
+    <Name>plant</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>machineDokuNo</Caption>
+    <ToolTip>machineDokuNo</ToolTip>
+    <Name>machineDokuNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>machineSoftwareVersion</Caption>
+    <ToolTip>machineSoftwareVersion</ToolTip>
+    <Name>machineSoftwareVersion</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>interfaceSoftwareVersionNo</Caption>
+    <ToolTip>interfaceSoftwareVersionNo</ToolTip>
+    <Name>interfaceSoftwareVersionNo</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Text</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>machineNumberOfProductionArea</Caption>
+    <ToolTip>machineNumberOfProductionArea</ToolTip>
+    <Name>machineNumberOfProductionArea</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>modeOn</Caption>
+    <ToolTip></ToolTip>
+    <Name>modeOnStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>operationMode</Caption>
+    <ToolTip></ToolTip>
+    <Name>operationModeStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>shift</Caption>
+    <ToolTip></ToolTip>
+    <Name>shiftStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>specPrgNo</Caption>
+    <ToolTip></ToolTip>
+    <Name>specPrgNoStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>Front typeNo</Caption>
+    <ToolTip></ToolTip>
+    <Name>FrontTypeNoStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>Rear typeNo</Caption>
+    <ToolTip></ToolTip>
+    <Name>RearTypeNoStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>Front typeVar</Caption>
+    <ToolTip></ToolTip>
+    <Name>FrontTypeVarStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category>dataUploadRequiredStatus</Category>
+    <Caption>Rear typeVar</Caption>
+    <ToolTip></ToolTip>
+    <Name>RearTypeVarStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>batch</Caption>
+    <ToolTip></ToolTip>
+    <Name>batchStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>changeFlag</Caption>
+    <ToolTip></ToolTip>
+    <Name>changeFlagStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>jam</Caption>
+    <ToolTip></ToolTip>
+    <Name>jamStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>partMissing</Caption>
+    <ToolTip></ToolTip>
+    <Name>partMissingStatus</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>ToolID</Caption>
+    <ToolTip></ToolTip>
+    <Name>ToolID</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>ToolOldID</Caption>
+    <ToolTip></ToolTip>
+    <Name>ToolOldID</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>ToolFamily</Caption>
+    <ToolTip></ToolTip>
+    <Name>ToolFamily</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>ToolName</Caption>
+    <ToolTip></ToolTip>
+    <Name>ToolName</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>ToolCounter</Caption>
+    <ToolTip></ToolTip>
+    <Name>ToolCounter</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Prog1.Name</Caption>
+    <ToolTip></ToolTip>
+    <Name>Prog1.Name</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Tool.Code</Caption>
+    <ToolTip></ToolTip>
+    <Name>Tool.Code</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Tool1.ID</Caption>
+    <ToolTip></ToolTip>
+    <Name>Tool1.ID</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Tool1.OldID</Caption>
+    <ToolTip></ToolTip>
+    <Name>Tool1.OldID</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Tool1.Family</Caption>
+    <ToolTip></ToolTip>
+    <Name>Tool1.Family</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Tool1.Name</Caption>
+    <ToolTip></ToolTip>
+    <Name>Tool1.Name</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Tool2.ID</Caption>
+    <ToolTip></ToolTip>
+    <Name>Tool2.ID</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Tool2.OldID</Caption>
+    <ToolTip></ToolTip>
+    <Name>Tool2.OldID</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Tool2.Family</Caption>
+    <ToolTip></ToolTip>
+    <Name>Tool2.Family</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Tool2.Name</Caption>
+    <ToolTip></ToolTip>
+    <Name>Tool2.Name</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>ToolID.Current</Caption>
+    <ToolTip></ToolTip>
+    <Name>ToolID.Current</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>Tool.Side</Caption>
+    <ToolTip></ToolTip>
+    <Name>Tool.Side</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>StartFirst</Caption>
+    <ToolTip></ToolTip>
+    <Name>StartFirst</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section>AOI</Section>
+    <Type>Hidden</Type>
+    <Category></Category>
+    <Caption>NowProcessing</Caption>
+    <ToolTip></ToolTip>
+    <Name>NowProcessing</Name>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Property</Type>
+    <Category></Category>
+    <Caption>ToolChange DialogBox</Caption>
+    <Name>ToolChange</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category>Basic_Category</Category>
+    <Caption>Customer Notification</Caption>
+    <Name>customer_notification</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>customer_notification</Category>
+    <Caption>Presetting Check</Caption>
+    <Name>Hole_Noise_Removal</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Check</Type>
+    <Category>customer_notification</Category>
+    <Caption>Noise notify</Caption>
+    <Name>notify</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+</Property>

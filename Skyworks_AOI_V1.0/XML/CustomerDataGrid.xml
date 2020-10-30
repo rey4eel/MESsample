@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grids>
+
+<!-- Auto Classification -->
+<Grid>
+    <Name>AutoClassification</Name>
+    <Caption>Auto Classification</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Columns>
+    		<Column>
+		    <Type>ComboBox</Type>
+		    <Name>Type</Name>
+		    <Caption>Type</Caption>
+		    <ToolTip><![CDATA[]]></ToolTip>
+		    <Properties><![CDATA[HorzAlignment=Default]]></Properties>
+		    <Values><![CDATA[Defect,Component,Part,Package]]></Values>
+		    <ValidationRuleType>None</ValidationRuleType>
+		    <AllowEdit>True</AllowEdit>
+		</Column>
+		<Column>
+		    <Type>Text</Type>
+		    <Name>Name</Name>
+		    <Caption>Name</Caption>
+		    <ToolTip><![CDATA[]]></ToolTip>
+		    <Properties><![CDATA[HorzAlignment=Default]]></Properties>
+		    <Values></Values>
+		    <ValidationRuleType>None</ValidationRuleType>
+		    <AllowEdit>True</AllowEdit>
+		</Column>
+		<Column>
+			<Type>CheckedComboBox</Type>
+			<Name>Defect</Name>
+			<Caption>Defect</Caption>
+			<ToolTip><![CDATA[]]></ToolTip>
+			<Properties><![CDATA[HorzAlignment=Default]]></Properties>
+			<Values><![CDATA[Undefined,PadOverhang,Solderfillet,Coplanarity,Bridging,Dimension,Polarity,OCROCV,Missing,UpsideDown,Foreignmaterial,Absence,WFMI,CDM]]></Values>
+			<ValidationRuleType>None</ValidationRuleType>
+			<AllowEdit>True</AllowEdit>
+		</Column>
+    </Columns>
+</Grid>
+
+</Grids>

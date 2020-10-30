@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Property>
+<Row>
+    <Section></Section>
+    <Type>Control</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <Name>Control</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[FontSize=14]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <Name>ScanProduct</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>Change Over Label </Caption>
+    <Name>txtChangeOverLabel</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>New inspection program </Caption>
+    <Name>txtNewProgram</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>Needed carrier </Caption>
+    <Name>txtNeedCarrier</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <Name>ScanCarrier</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanCarrier</Category>
+    <Caption>Inserted carrier </Caption>
+    <Name>txtInCarrier</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category></Category>
+    <Caption></Caption>
+    <Name>Information</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Memo</Type>
+    <Category></Category>
+    <Caption>Information</Caption>
+    <Name>txtInfo</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[FontColor=Blue]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<!--Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category></Category>
+    <Caption>Scan Product Code</Caption>
+    <Name>ScanProduct</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Radio</Type>
+    <Category>ScanProduct</Category>
+    <Caption>ToolSide</Caption>
+    <Name>ToolSide</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values><![CDATA[T=Top,B=Bottom]]></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>Product Code </Caption>
+    <Name>txtProductCode</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>Tool Code </Caption>
+    <Name>txtToolCode</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Button</Type>
+    <Category>ScanProduct</Category>
+    <Caption>Click after input the product code.</Caption>
+    <Name>btnProduct</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[FontSize=14,FontStyle=,FontColor=,HorzAlignment=,VAlignment=]]></Properties>
+    <Values><![CDATA[]]></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>Prog1.Name</Caption>
+    <Name>txtProg1.Name</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>MES ToolCode</Caption>
+    <Name>txtMESToolCode</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>Tool1.Name</Caption>
+    <Name>txtTool1.Name</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>Tool1.Family</Caption>
+    <Name>txtTool1.Family</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>Tool2.Name</Caption>
+    <Name>txtTool2.Name</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>ScanProduct</Category>
+    <Caption>Tool2.Family</Caption>
+    <Name>txtTool2.Family</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category></Category>
+    <Caption>Finish</Caption>
+    <Name>Finish</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Button</Type>
+    <Category>Finish</Category>
+    <Caption>Finish ToolChange</Caption>
+    <Name>btnFinish</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[FontSize=14,FontStyle=,FontColor=,HorzAlignment=,VAlignment=]]></Properties>
+    <Values><![CDATA[]]></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row-->
+</Property>
+

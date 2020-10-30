@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Codes>
+    <AutoClassification Type="Body" MachineCode="1000" MachineName="Undefined" ReviewCode="30000000" ReviewName="UNDEFINED" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="1100" MachineName="PadOverhang" ReviewCode="30000018" ReviewName="OVERHANG" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="1200" MachineName="Solderfillet" ReviewCode="30000008" ReviewName="SOLDER_JOINT" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="1300" MachineName="Coplanarity" ReviewCode="30000010" ReviewName="LIFTED_BODY" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="1400" MachineName="Bridging" ReviewCode="30000011" ReviewName="BRIDGING" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="1500" MachineName="Dimension" ReviewCode="30000003" ReviewName="DIMENSION" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="1600" MachineName="Polarity" ReviewCode="30000015" ReviewName="POLARITY" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="1700" MachineName="OCROCV" ReviewCode="30000016" ReviewName="OCR_OCV" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="1800" MachineName="Missing" ReviewCode="30000004" ReviewName="MISSING" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="1900" MachineName="UpsideDown" ReviewCode="30000006" ReviewName="UPSIDEDOWN" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="2000" MachineName="Foreignmaterial" ReviewCode="30000021" ReviewName="FOREIGNMATERIAL_BODY" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="2100" MachineName="Absence" ReviewCode="30000017" ReviewName="ABSENCE" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="2300" MachineName="WFMI" ReviewCode="30000023" ReviewName="WFMI" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="2400" MachineName="CDM" ReviewCode="30000024" ReviewName="CDM" Priority="0"/>
+    <AutoClassification Type="Lead" MachineCode="1000" MachineName="Undefined" ReviewCode="30000000" ReviewName="UNDEFINED" Priority="0"/>
+    <AutoClassification Type="Lead" MachineCode="1100" MachineName="PadOverhang" ReviewCode="30000001" ReviewName="PADOVERHANG" Priority="0"/>
+    <AutoClassification Type="Lead" MachineCode="1200" MachineName="Solderfillet" ReviewCode="30000008" ReviewName="SOLDER_JOINT" Priority="0"/>
+    <AutoClassification Type="Lead" MachineCode="1300" MachineName="Coplanarity" ReviewCode="30000009" ReviewName="LIFTED_LEAD" Priority="0"/>
+    <AutoClassification Type="Lead" MachineCode="1400" MachineName="Bridging" ReviewCode="30000011" ReviewName="BRIDGING" Priority="0"/>
+    <AutoClassification Type="Lead" MachineCode="1500" MachineName="Dimension" ReviewCode="30000003" ReviewName="DIMENSION" Priority="0"/>
+    <AutoClassification Type="Lead" MachineCode="1600" MachineName="Polarity" ReviewCode="30000015" ReviewName="POLARITY" Priority="0"/>
+    <AutoClassification Type="Lead" MachineCode="1700" MachineName="OCROCV" ReviewCode="30000016" ReviewName="OCR_OCV" Priority="0"/>
+    <AutoClassification Type="Lead" MachineCode="1800" MachineName="Missing" ReviewCode="30000019" ReviewName="MISSING_LEAD" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="1900" MachineName="UpsideDown" ReviewCode="30000006" ReviewName="UPSIDEDOWN" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="2000" MachineName="Foreignmaterial" ReviewCode="30000022" ReviewName="FOREIGNMATERIAL_LEAD" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="2100" MachineName="Absence" ReviewCode="30000017" ReviewName="ABSENCE" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="2300" MachineName="WFMI" ReviewCode="30000023" ReviewName="WFMI" Priority="0"/>
+    <AutoClassification Type="Body" MachineCode="2400" MachineName="CDM" ReviewCode="30000024" ReviewName="CDM" Priority="0"/>
+</Codes>

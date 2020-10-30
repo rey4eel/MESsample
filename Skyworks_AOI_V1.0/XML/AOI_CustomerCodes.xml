@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomerCodes>
+  <InspectResult Code="11000000" Name="GOOD" CustomerCode="11000000" CustomerName="GOOD"/>
+  <InspectResult Code="12000000" Name="PASS" CustomerCode="12000000" CustomerName="PASS"/>
+  <InspectResult Code="12000003" Name="REPAIRED" CustomerCode="12000000" CustomerName="REPAIRED"/>
+  <InspectResult Code="13000000" Name="NG" CustomerCode="13000000" CustomerName="NG"/>
+  <InspectResult Code="14000000" Name="SCRAP" CustomerCode="14000000" CustomerName="SCRAP"/>
+  <InspectResult Code="15000000" Name="BYPASS" CustomerCode="15000000" CustomerName="BYPASS"/>
+  <InspectResult Code="18000000" Name="SKIP" CustomerCode="18000000" CustomerName="SKIP"/>
+  <InspectType Type="Body" Code="1000" Name="Undefined" CustomerCode="1000" CustomerName="Undefined" Priority="0"/>
+  <InspectType Type="Body" Code="1100" Name="Overhang" CustomerCode="1100" CustomerName="Overhang" Priority="0"/>
+  <InspectType Type="Body" Code="1110" Name="Overhang" CustomerCode="1100" CustomerName="Overhang" Priority="0"/>
+  <InspectType Type="Body" Code="1300" Name="Coplanarity" CustomerCode="1300" CustomerName="Coplanarity" Priority="0"/>
+  <InspectType Type="Body" Code="1500" Name="Dimension" CustomerCode="1500" CustomerName="Dimension" Priority="0"/>
+  <InspectType Type="Body" Code="1600" Name="Polarity" CustomerCode="1600" CustomerName="Polarity" Priority="0"/>
+  <InspectType Type="Body" Code="1700" Name="OCROCV" CustomerCode="1700" CustomerName="OCROCV" Priority="0"/>
+  <InspectType Type="Body" Code="1800" Name="Missing" CustomerCode="1800" CustomerName="Missing" Priority="0"/>
+  <InspectType Type="Body" Code="1900" Name="UpsideDown" CustomerCode="1900" CustomerName="UpsideDown" Priority="0"/>
+  <InspectType Type="Body" Code="2000" Name="Foreignmaterial" CustomerCode="2000" CustomerName="Foreignmaterial" Priority="0"/>
+  <InspectType Type="Body" Code="2100" Name="Absence" CustomerCode="2100" CustomerName="Absence" Priority="0"/>
+  <InspectType Type="Body" Code="2200" Name="Fiducial" CustomerCode="2200" CustomerName="Fiducial" Priority="0"/>
+  <InspectType Type="Body" Code="2300" Name="BoardForeignmaterial" CustomerCode="2300" CustomerName="BoardForeignmaterial" Priority="0"/>
+  <InspectType Type="Body" Code="2400" Name="CriticalDistance" CustomerCode="2400" CustomerName="CriticalDistance" Priority="0"/>
+  <InspectType Type="Lead" Code="1000" Name="Undefined" CustomerCode="1000" CustomerName="Undefined" Priority="0"/>
+  <InspectType Type="Lead" Code="1100" Name="Overhang" CustomerCode="1100" CustomerName="Overhang" Priority="0"/>
+  <InspectType Type="Lead" Code="1200" Name="Solderfillet" CustomerCode="1200" CustomerName="Solderfillet" Priority="0"/>
+  <InspectType Type="Lead" Code="1300" Name="Coplanarity" CustomerCode="1300" CustomerName="Coplanarity" Priority="0"/>
+  <InspectType Type="Lead" Code="1400" Name="Bridge" CustomerCode="1400" CustomerName="Bridge" Priority="0"/>
+  <InspectType Type="Lead" Code="1800" Name="Missing" CustomerCode="1800" CustomerName="Missing" Priority="0"/>
+  <InspectType Type="Lead" Code="2000" Name="Foreignmaterial" CustomerCode="2000" CustomerName="Foreignmaterial" Priority="0"/>
+  <AutoClassification Type="" InspType="" InspTypeName="" Code="0" Name="Undefined" CustomerCode="0" CustomerName="Undefined" Priority="0"/>
+  <AutoClassification Type="" InspType="" InspTypeName="" Code="1" Name="NG" CustomerCode="1" CustomerName="NG" Priority="0"/>
+  <AutoClassification Type="" InspType="" InspTypeName="" Code="2" Name="GOOD" CustomerCode="2" CustomerName="GOOD" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1100" InspTypeName="Overhang" Code="-1050" Name="Offset X" CustomerCode="-1050" CustomerName="Offset X" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1100" InspTypeName="Overhang" Code="-1051" Name="Offset Y" CustomerCode="-1051" CustomerName="Offset Y" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1100" InspTypeName="Overhang" Code="-1052" Name="Offset Angle" CustomerCode="-1052" CustomerName="Offset Angle" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1300" InspTypeName="Coplanarity" Code="-1040" Name="Lift" CustomerCode="-1040" CustomerName="Lift" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1500" InspTypeName="Dimension" Code="-1060" Name="Tombstone" CustomerCode="-1060" CustomerName="Tombstone" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1500" InspTypeName="Dimension" Code="-1061" Name="Billboarding" CustomerCode="-1061" CustomerName="Billboarding" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1500" InspTypeName="Dimension" Code="-1062" Name="Double Chip" CustomerCode="-1062" CustomerName="Double Chip" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1500" InspTypeName="Dimension" Code="-1070" Name="Wrong Part" CustomerCode="-1070" CustomerName="Wrong Part" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1600" InspTypeName="Polarity" Code="-1030" Name="Polarity" CustomerCode="-1030" CustomerName="Polarity" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1700" InspTypeName="OCROCV" Code="-1070" Name="Wrong Part" CustomerCode="-1070" CustomerName="Wrong Part" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1700" InspTypeName="OCROCV" Code="-1071" Name="Rotated Component" CustomerCode="-1071" CustomerName="Rotated Component" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1800" InspTypeName="Missing" Code="-1000" Name="Missing" CustomerCode="-1000" CustomerName="Missing" Priority="0"/>
+  <AutoClassification Type="Body" InspType="1900" InspTypeName="UpsideDown" Code="-1020" Name="UpsideDown" CustomerCode="-1020" CustomerName="UpsideDown" Priority="0"/>
+  <AutoClassification Type="Body" InspType="2100" InspTypeName="Absence" Code="-1010" Name="Particle" CustomerCode="-1010" CustomerName="Particle" Priority="0"/>
+  <AutoClassification Type="Body" InspType="2000" InspTypeName="Foreignmaterial" Code="-2050" Name="Particle" CustomerCode="-2050" CustomerName="Particle" Priority="0"/>
+  <AutoClassification Type="Body" InspType="2000" InspTypeName="Foreignmaterial" Code="-2051" Name="Solder Ball" CustomerCode="-2051" CustomerName="Solder Ball" Priority="0"/>
+  <AutoClassification Type="Body" InspType="2300" InspTypeName="BoardForeignmaterial" Code="-3000" Name="Particle" CustomerCode="-3000" CustomerName="Particle" Priority="0"/>
+  <AutoClassification Type="Body" InspType="2300" InspTypeName="BoardForeignmaterial" Code="-3001" Name="Solder Ball" CustomerCode="-3001" CustomerName="Solder Ball" Priority="0"/>
+  <AutoClassification Type="Lead" InspType="1100" InspTypeName="Overhang" Code="-2030" Name="Lead Offset" CustomerCode="-2030" CustomerName="Lead Offset" Priority="0"/>
+  <AutoClassification Type="Lead" InspType="1200" InspTypeName="Solderfillet" Code="-2040" Name="Excessive" CustomerCode="-2040" CustomerName="Excessive" Priority="0"/>
+  <AutoClassification Type="Lead" InspType="1200" InspTypeName="Solderfillet" Code="-2041" Name="Insufficient" CustomerCode="-2041" CustomerName="Insufficient" Priority="0"/>
+  <AutoClassification Type="Lead" InspType="1200" InspTypeName="Solderfillet" Code="-2042" Name="Non Wetting" CustomerCode="-2042" CustomerName="Non Wetting" Priority="0"/>
+  <AutoClassification Type="Lead" InspType="1200" InspTypeName="Solderfillet" Code="-2043" Name="Cold Joint" CustomerCode="-2043" CustomerName="Cold Joint" Priority="0"/>
+  <AutoClassification Type="Lead" InspType="1300" InspTypeName="Coplanarity" Code="-2010" Name="Lead Lift" CustomerCode="-2010" CustomerName="Lead Lift" Priority="0"/>
+  <AutoClassification Type="Lead" InspType="1400" InspTypeName="Bridge" Code="-2020" Name="Short" CustomerCode="-2020" CustomerName="Short" Priority="0"/>
+  <AutoClassification Type="Lead" InspType="1800" InspTypeName="Missing" Code="-2000" Name="Component Damage" CustomerCode="-2000" CustomerName="Component Damage" Priority="0"/>
+  <AutoClassification Type="Lead" InspType="2000" InspTypeName="Foreignmaterial" Code="-2050" Name="Particle" CustomerCode="-2050" CustomerName="Particle" Priority="0"/>
+  <AutoClassification Type="Lead" InspType="2000" InspTypeName="Foreignmaterial" Code="-2051" Name="Solder Ball" CustomerCode="-2051" CustomerName="Solder Ball" Priority="0"/>
+  <Defect Code="11000000" Name="GOOD" Category="" CustomerCode="11000000" CustomerName="GOOD" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="12000000" Name="PASS" Category="" CustomerCode="12000000" CustomerName="PASS" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="12000003" Name="REPAIRED" Category="" CustomerCode="12000003" CustomerName="REPAIRED" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="13000000" Name="NG" Category="" CustomerCode="13000000" CustomerName="NG" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000000" Name="UNDEFINED" Category="" CustomerCode="30000000" CustomerName="UNDEFINED" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000001" Name="PADOVERHANG" Category="" CustomerCode="30000001" CustomerName="PADOVERHANG" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000002" Name="COPLANARITY" Category="" CustomerCode="30000002" CustomerName="COPLANARITY" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000003" Name="DIMENSION" Category="" CustomerCode="30000003" CustomerName="DIMENSION" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000004" Name="MISSING" Category="" CustomerCode="30000004" CustomerName="MISSING" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000005" Name="COMPONENT_SHIFT" Category="" CustomerCode="30000005" CustomerName="COMPONENT_SHIFT" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000006" Name="UPSIDEDOWN" Category="" CustomerCode="30000006" CustomerName="UPSIDEDOWN" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000007" Name="POSITION" Category="" CustomerCode="30000007" CustomerName="POSITION" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000008" Name="SOLDER_JOINT" Category="" CustomerCode="30000008" CustomerName="SOLDER_JOINT" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000009" Name="LIFTED_LEAD" Category="" CustomerCode="30000009" CustomerName="LIFTED_LEAD" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000010" Name="LIFTED_BODY" Category="" CustomerCode="30000010" CustomerName="LIFTED_BODY" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000011" Name="BRIDGING" Category="" CustomerCode="30000011" CustomerName="BRIDGING" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000012" Name="BILL_BOARDING" Category="" CustomerCode="30000012" CustomerName="BILL_BOARDING" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000013" Name="TOMBSTONE" Category="" CustomerCode="30000013" CustomerName="TOMBSTONE" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000014" Name="BODY_DIMENSION" Category="" CustomerCode="30000014" CustomerName="BODY_DIMENSION" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000015" Name="POLARITY" Category="" CustomerCode="30000015" CustomerName="POLARITY" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000016" Name="OCR_OCV" Category="" CustomerCode="30000016" CustomerName="OCR_OCV" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000017" Name="ABSENCE" Category="" CustomerCode="30000017" CustomerName="ABSENCE" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000018" Name="OVERHANG" Category="" CustomerCode="30000018" CustomerName="OVERHANG" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000019" Name="MISSING_LEAD" Category="" CustomerCode="30000019" CustomerName="MISSING_LEAD" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000020" Name="PARTICLE" Category="" CustomerCode="30000020" CustomerName="PARTICLE" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000021" Name="FOREIGNMATERIAL_BODY" Category="" CustomerCode="30000021" CustomerName="FOREIGNMATERIAL_BODY" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000022" Name="FOREIGNMATERIAL_LEAD" Category="" CustomerCode="30000022" CustomerName="FOREIGNMATERIAL_LEAD" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000023" Name="WFMI" Category="" CustomerCode="30000023" CustomerName="WFMI" Priority="0" AcceptablePass ="0"/>
+  <Defect Code="30000024" Name="CDM" Category="" CustomerCode="30000024" CustomerName="CDM" Priority="0" AcceptablePass ="0"/>
+  <MachineStatus Code="-1" Name="Undefined" CustomerCode="-1" CustomerName="Undefined"/>
+  <MachineStatus Code="25" Name="JobLoad" CustomerCode="25" CustomerName="JobLoad"/>
+  <MachineStatus Code="35" Name="Calibrate" CustomerCode="35" CustomerName="Calibrate"/>
+  <MachineStatus Code="100" Name="Production" CustomerCode="100" CustomerName="Production"/>
+  <MachineStatus Code="194" Name="Disconnected" CustomerCode="194" CustomerName="Disconnected"/>
+  <MachineStatus Code="202" Name="Initialze" CustomerCode="202" CustomerName="Initialze"/>
+  <MachineStatus Code="203" Name="Power off" CustomerCode="203" CustomerName="Power off"/>
+  <MachineStatus Code="204" Name="Homing" CustomerCode="204" CustomerName="Homing"/>
+  <MachineStatus Code="205" Name="Running" CustomerCode="205" CustomerName="Running"/>
+  <MachineStatus Code="206" Name="Bypass" CustomerCode="206" CustomerName="Bypass"/>
+  <MachineStatus Code="207" Name="Grap" CustomerCode="207" CustomerName="Grap"/>
+  <MachineStatus Code="208" Name="Idle" CustomerCode="208" CustomerName="Idle"/>
+  <MachineStatus Code="209" Name="Stop" CustomerCode="209" CustomerName="Stop"/>
+  <MachineStatus Code="210" Name="Error" CustomerCode="210" CustomerName="Error"/>
+  <MachineStatus Code="211" Name="Emergency" CustomerCode="211" CustomerName="Emergency"/>
+  <MachineStatus Code="220" Name="Board Grab" CustomerCode="220" CustomerName="Board Grab"/>
+  <MachineStatus Code="221" Name="Run CBI" CustomerCode="221" CustomerName="Run CBI"/>
+  <MachineStatus Code="300" Name="Wait" CustomerCode="300" CustomerName="Wait"/>
+  <PackageType Name="ALUMINUM_CAPACITOR" CustomerName="ALUMINUM_CAPACITOR" Priority="0"/>
+  <PackageType Name="BGA" CustomerName="BGA" Priority="0"/>
+  <PackageType Name="CAPACITOR" CustomerName="CAPACITOR" Priority="0"/>
+  <PackageType Name="CHIP_ARRAY" CustomerName="CHIP_ARRAY" Priority="0"/>
+  <PackageType Name="CONNECTOR" CustomerName="CONNECTOR" Priority="0"/>
+  <PackageType Name="CRYTAL" CustomerName="CRYTAL" Priority="0"/>
+  <PackageType Name="DIODE" CustomerName="DIODE" Priority="0"/>
+  <PackageType Name="DIP" CustomerName="DIP" Priority="0"/>
+  <PackageType Name="DPAK" CustomerName="DPAK" Priority="0"/>
+  <PackageType Name="FEATURE" CustomerName="FEATURE" Priority="0"/>
+  <PackageType Name="INDUCTOR" CustomerName="INDUCTOR" Priority="0"/>
+  <PackageType Name="LED" CustomerName="LED" Priority="0"/>
+  <PackageType Name="MELF" CustomerName="MELF" Priority="0"/>
+  <PackageType Name="OTHER" CustomerName="OTHER" Priority="0"/>
+  <PackageType Name="PRESSFIT" CustomerName="PRESSFIT" Priority="0"/>
+  <PackageType Name="QFN" CustomerName="QFN" Priority="0"/>
+  <PackageType Name="QFP" CustomerName="QFP" Priority="0"/>
+  <PackageType Name="RESISTOR" CustomerName="RESISTOR" Priority="0"/>
+  <PackageType Name="SHIELD" CustomerName="SHIELD" Priority="0"/>
+  <PackageType Name="SINGLE_PIN" CustomerName="SINGLE_PIN" Priority="0"/>
+  <PackageType Name="SOD" CustomerName="SOD" Priority="0"/>
+  <PackageType Name="SOIC" CustomerName="SOIC" Priority="0"/>
+  <PackageType Name="SOJ" CustomerName="SOJ" Priority="0"/>
+  <PackageType Name="SOT" CustomerName="SOT" Priority="0"/>
+  <PackageType Name="STICKER" CustomerName="STICKER" Priority="0"/>
+  <PackageType Name="TANTAL" CustomerName="TANTAL" Priority="0"/>
+  <PackageType Name="THROUGH_HOLE" CustomerName="THROUGH_HOLE" Priority="0"/>
+</CustomerCodes>

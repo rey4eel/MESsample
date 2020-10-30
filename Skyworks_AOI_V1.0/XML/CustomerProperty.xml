@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Property>
+
+<!-- Hidden -->
+<Row>
+    <Type>Hidden</Type>
+    <Section></Section>
+    <Category></Category>
+    <Name>strJobList</Name>
+    <Caption></Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values>JobList.db</Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+
+<!-- SECS/GEM -->
+<Row>
+    <Type>Category</Type>
+    <Section></Section>
+    <Category></Category>
+    <Name>SECSGEM</Name>
+    <Caption>SECS/GEM</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Check</Type>
+    <Section></Section>
+    <Category>SECSGEM</Category>
+    <Name>SECSGEMEnable</Name>
+    <Caption>Enable</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>ComboBox</Type>
+    <Section></Section>
+    <Category>SECSGEM</Category>
+    <Name>SECSGEMMode</Name>
+    <Caption>Mode</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values><![CDATA[Offline,Inline]]></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+
+<!-- Heat Map -->
+<Row>
+    <Type>Category</Type>
+    <Section></Section>
+    <Category></Category>
+    <Name>HeatMap</Name>
+    <Caption>Heat Map</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Check</Type>
+    <Section></Section>
+    <Category>HeatMap</Category>
+    <Name>bUseHeatMap</Name>
+    <Caption>Enable</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Text</Type>
+    <Section></Section>
+    <Category>HeatMap</Category>
+    <Name>LINE_ID</Name>
+    <Caption>Line ID</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+
+<!-- Auto Classification -->
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category></Category>
+    <Caption>Auto Classification</Caption>
+    <Name>AutoClassification</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Check</Type>
+    <Section></Section>
+    <Category>AutoClassification</Category>
+    <Name>AutoClassificationEnable</Name>
+    <Caption>Enable</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Check</Type>
+    <Section></Section>
+    <Category>AutoClassification</Category>
+    <Name>AutoClassificationLock</Name>
+    <Caption>Lock Review</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Button</Type>
+    <Category>AutoClassification</Category>
+    <Caption>Click here to edit defect list</Caption>
+    <Name>AutoClassificationButton</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[FontSize=,FontStyle=,FontColor=Gray,HorzAlignment=1,VAlignment=]]></Properties>
+    <Values><![CDATA[]]></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+
+<!-- Definition -->
+<Row>
+    <Type>Category</Type>
+    <Section></Section>
+    <Category></Category>
+    <Name>Definition</Name>
+    <Caption>Definition</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>True</Auth>
+</Row>
+<!-- Auto -->
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category>Definition</Category>
+    <Caption>Auto</Caption>
+    <Name>Auto</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Check</Type>
+    <Category>Auto</Category>
+    <Caption>DB Setting</Caption>
+    <Name>AutoDBSetting</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<!-- Heat Map -->
+<Row>
+    <Type>Category</Type>
+    <Section></Section>
+    <Category>Definition</Category>
+    <Name>DefinitionHeatMap</Name>
+    <Caption>Heat Map</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>FolderDialog</Type>
+    <Section></Section>
+    <Category>DefinitionHeatMap</Category>
+    <Name>strDBPath</Name>
+    <Caption>DB Folder</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values><![CDATA[]]></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Text</Type>
+    <Section></Section>
+    <Category>DefinitionHeatMap</Category>
+    <Name>FILE_LIMIT</Name>
+    <Caption>File Limit (MB)</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>XSLT</Type>
+    <Section>AOI</Section>
+    <Category>DefinitionHeatMap</Category>
+    <Name>ResultData</Name>
+    <Caption>Result Data</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<!-- Auto Classification -->
+<Row>
+    <Type>Category</Type>
+    <Section></Section>
+    <Category>Definition</Category>
+    <Name>DefinitionAutoClassification</Name>
+    <Caption>Auto Classification</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Codes</Type>
+    <Section>AOI</Section>
+    <Category>DefinitionAutoClassification</Category>
+    <Name>AutoClassificationCodes</Name>
+    <Caption>Codes</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+
+</Property>

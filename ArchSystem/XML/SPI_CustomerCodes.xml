@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomerCodes>
+  <InspectResult Code="0" Name="GOOD" CustomerCode="0" CustomerName="GOOD" />
+  <InspectResult Code="1" Name="WARNING" CustomerCode="1" CustomerName="GOOD" />
+  <InspectResult Code="2" Name="NG" CustomerCode="2" CustomerName="NG" />
+  <InspectResult Code="3" Name="PASS" CustomerCode="3" CustomerName="PASS" />
+  <Defect Type="UNUSED" Code="0" Name="UNUSED" CustomerCode="0" CustomerName="UNUSED" Priority="0" />
+  <Defect Type="GOOD" Code="1" Name="GOOD" CustomerCode="1" CustomerName="GOOD" Priority="0" />
+  <Defect Type="PASS" Code="2" Name="PASS" CustomerCode="2" CustomerName="PASS" Priority="0" />
+  <Defect Type="SKIP" Code="10" Name="BADMARK" CustomerCode="10" CustomerName="BADMARK" Priority="0" />
+  <Defect Type="WARNING" Code="-11" Name="WARNING_EXCESSIVE_VOLUME" CustomerCode="-11" CustomerName="WARNING_EXCESSIVE_VOLUME" Priority="0" />
+  <Defect Type="WARNING" Code="-12" Name="WARNING_INSUFFICIENT_VOLUME" CustomerCode="-12" CustomerName="WARNING_INSUFFICIENT_VOLUME" Priority="0" />
+  <Defect Type="WARNING" Code="-13" Name="WARNING_POSITION" CustomerCode="-13" CustomerName="WARNING_POSITION" Priority="0" />
+  <Defect Type="WARNING" Code="-14" Name="WARNING_BRIDGING" CustomerCode="-14" CustomerName="WARNING_BRIDGING" Priority="0" />
+  <Defect Type="WARNING" Code="-15" Name="WARNING_GOLDTAB" CustomerCode="-15" CustomerName="WARNING_GOLDTAB" Priority="0" />
+  <Defect Type="WARNING" Code="-16" Name="WARNING_SHAPE" CustomerCode="-16" CustomerName="WARNING_SHAPE" Priority="0" />
+  <Defect Type="WARNING" Code="-17" Name="WARNING_UPPER_HEIGHT" CustomerCode="-17" CustomerName="WARNING_UPPER_HEIGHT" Priority="0" />
+  <Defect Type="WARNING" Code="-18" Name="WARNING_LOW_HEIGHT" CustomerCode="-18" CustomerName="WARNING_LOW_HEIGHT" Priority="0" />
+  <Defect Type="WARNING" Code="-20" Name="WARNING_HIGH_AREA" CustomerCode="-20" CustomerName="WARNING_HIGH_AREA" Priority="0" />
+  <Defect Type="WARNING" Code="-21" Name="WARNING_LOW_AREA" CustomerCode="-21" CustomerName="WARNING_LOW_AREA" Priority="0" />
+  <Defect Type="WARNING" Code="-22" Name="WARNING_COPLANARITY" CustomerCode="-22" CustomerName="WARNING_COPLANARITY" Priority="0" />
+  <Defect Type="WARNING" Code="-30" Name="WARNING_SMEAR" CustomerCode="-30" CustomerName="WARNING_SMEAR" Priority="0" />
+  <Defect Type="WARNING" Code="-31" Name="WARNING_FM" CustomerCode="-31" CustomerName="WARNING_FM" Priority="0" />
+  <Defect Type="WARNING" Code="-33" Name="WARNING_SURFACE" CustomerCode="-33" CustomerName="WARNING_SURFACE" Priority="0" />
+  <Defect Type="NG" Code="-1" Name="NORMALIZE_HEIGHT" CustomerCode="-1" CustomerName="NORMALIZE_HEIGHT" Priority="0" />
+  <Defect Type="NG" Code="-2" Name="ROI_NUMBER" CustomerCode="-2" CustomerName="ROI_NUMBER" Priority="0" />
+  <Defect Type="NG" Code="-101" Name="EXCESSIVE_VOLUME" CustomerCode="-101" CustomerName="EXCESSIVE_VOLUME" Priority="0" />
+  <Defect Type="NG" Code="-102" Name="INSUFFICIENT_VOLUME" CustomerCode="-102" CustomerName="INSUFFICIENT_VOLUME" Priority="0" />
+  <Defect Type="NG" Code="-103" Name="POSITION" CustomerCode="-103" CustomerName="POSITION" Priority="0" />
+  <Defect Type="NG" Code="-104" Name="BRIDGING" CustomerCode="-104" CustomerName="BRIDGING" Priority="0" />
+  <Defect Type="NG" Code="-105" Name="GOLDTAB" CustomerCode="-105" CustomerName="GOLDTAB" Priority="0" />
+  <Defect Type="NG" Code="-106" Name="SHAPE" CustomerCode="-106" CustomerName="SHAPE" Priority="0" />
+  <Defect Type="NG" Code="-107" Name="UPPER_HEIGHT" CustomerCode="-107" CustomerName="UPPER_HEIGHT" Priority="0" />
+  <Defect Type="NG" Code="-108" Name="LOW_HEIGHT" CustomerCode="-108" CustomerName="LOW_HEIGHT" Priority="0" />
+  <Defect Type="NG" Code="-110" Name="HIGH_AREA" CustomerCode="-110" CustomerName="HIGH_AREA" Priority="0" />
+  <Defect Type="NG" Code="-111" Name="LOW_AREA" CustomerCode="-111" CustomerName="LOW_AREA" Priority="0" />
+  <Defect Type="NG" Code="-112" Name="COPLANARITY" CustomerCode="-112" CustomerName="COPLANARITY" Priority="0" />
+  <Defect Type="NG" Code="-120" Name="SMEAR" CustomerCode="-120" CustomerName="SMEAR" Priority="0" />
+  <Defect Type="NG" Code="-121" Name="FM" CustomerCode="-121" CustomerName="FM" Priority="0" />
+  <Defect Type="NG" Code="-123" Name="SURFACE" CustomerCode="-123" CustomerName="SURFACE" Priority="0" />
+  <Defect Type="UNKNOWN" Code="-999" Name="UNKNOWN" CustomerCode="-999" CustomerName="UNKNOWN" Priority="0" />
+  <MachineStatus Code="0" Name="Idle" CustomerCode="0" CustomerName="Idle" />
+  <MachineStatus Code="1" Name="Run" CustomerCode="1" CustomerName="Run" />
+  <MachineStatus Code="2" Name="Pause" CustomerCode="2" CustomerName="Pause" />
+  <MachineStatus Code="3" Name="Error" CustomerCode="3" CustomerName="Error" />
+  <MachineStatus Code="6" Name="Bypass" CustomerCode="6" CustomerName="Bypass" />
+  <MachineStatus Code="7" Name="Emergency" CustomerCode="7" CustomerName="Emergency" />
+  <MachineStatus Code="10" Name="Offline" CustomerCode="10" CustomerName="Offline" />
+  <MachineStatus Code="11" Name="Reset" CustomerCode="11" CustomerName="Reset" />
+  <MachineStatus Code="13" Name="Defect" CustomerCode="13" CustomerName="Defect" />
+  <MachineStatus Code="16" Name="Home" CustomerCode="16" CustomerName="Home" />
+  <MachineStatus Code="17" Name="PowerOff" CustomerCode="17" CustomerName="PowerOff" />
+  <MachineStatus Code="18" Name="Init" CustomerCode="18" CustomerName="Init" />
+  <MachineStatus Code="24" Name="HomeEnd" CustomerCode="24" CustomerName="HomeEnd" />
+  <MachineStatus Code="25" Name="JobLoad" CustomerCode="25" CustomerName="JobLoad" />
+  <MachineStatus Code="100" Name="Production" CustomerCode="100" CustomerName="Production" />
+  <PadType Code="0" Name="SHAPEG_RECT" CustomerCode="0" CustomerName="SHAPEG_RECT" />
+  <PadType Code="1" Name="SHAPEG_CIRCLE" CustomerCode="1" CustomerName="SHAPEG_CIRCLE" />
+  <PadType Code="2" Name="SHAPEG_ETC" CustomerCode="2" CustomerName="SHAPEG_ETC" />
+  <PadType Code="3" Name="SHAPEG_RNDRECT" CustomerCode="3" CustomerName="SHAPEG_RNDRECT" />
+  <PadType Code="4" Name="SHAPEG_OBLONG" CustomerCode="4" CustomerName="SHAPEG_OBLONG" />
+  <PadType Code="5" Name="SHAPEG_NSLOPE" CustomerCode="5" CustomerName="SHAPEG_NSLOPE" />
+  <PadType Code="6" Name="SHAPEG_PSLOPE" CustomerCode="6" CustomerName="SHAPEG_PSLOPE" />
+  <PadType Code="7" Name="SHAPEG_GTEP" CustomerCode="7" CustomerName="SHAPEG_GTEP" />
+  <PadType Code="8" Name="SHAPEG_XHOLE" CustomerCode="8" CustomerName="SHAPEG_XHOLE" />
+  <PadType Code="9" Name="SHAPEG_CROSSHOLE" CustomerCode="9" CustomerName="SHAPEG_CROSSHOLE" />
+  <PadType Code="10" Name="SHAPEG_POLYGON" CustomerCode="10" CustomerName="SHAPEG_POLYGON" />
+  <PadType Code="13" Name="SHAPEG_GLUE" CustomerCode="13" CustomerName="SHAPEG_GLUE" />
+  <PadType Code="20" Name="SHAPEG_BBADMARK" CustomerCode="20" CustomerName="SHAPEG_BBADMARK" />
+  <PadType Code="21" Name="SHAPEG_WBADMARK" CustomerCode="21" CustomerName="SHAPEG_WBADMARK" />
+  <PadType Code="22" Name="SHAPEG_MBLOB" CustomerCode="22" CustomerName="SHAPEG_MBLOB" />
+  <PadType Code="23" Name="SHAPEG_ROTETC" CustomerCode="23" CustomerName="SHAPEG_ROTETC" />
+  <PadType Code="24" Name="SHAPEG_DIAMOND_S" CustomerCode="24" CustomerName="SHAPEG_DIAMOND_S" />
+  <PadType Code="25" Name="SHAPEG_DIAMOND_L" CustomerCode="25" CustomerName="SHAPEG_DIAMOND_L" />
+  <PadType Code="26" Name="SHAPEG_QFP" CustomerCode="26" CustomerName="SHAPEG_QFP" />
+  <PadType Code="27" Name="SHAPEG_LASER" CustomerCode="27" CustomerName="SHAPEG_LASER" />
+  <PadType Code="31" Name="SHAPEG_PSLOPOFFSET" CustomerCode="31" CustomerName="SHAPEG_PSLOPOFFSET" />
+  <PadType Code="32" Name="SHAPEG_NSLOPOFFSET" CustomerCode="32" CustomerName="SHAPEG_NSLOPOFFSET" />
+  <PadType Code="51" Name="SHAPEG_TALL" CustomerCode="51" CustomerName="SHAPEG_TALL" />
+  <PadType Code="52" Name="SHAPEG_BOUNDARY" CustomerCode="52" CustomerName="SHAPEG_BOUNDARY" />
+  <PadType Code="101" Name="SHAPEG_LFWRECT" CustomerCode="101" CustomerName="SHAPEG_LFWRECT" />
+  <PadType Code="102" Name="SHAPEG_LFWCIRCLE" CustomerCode="102" CustomerName="SHAPEG_LFWCIRCLE" />
+  <PadType Code="103" Name="SHAPEG_LFWETC" CustomerCode="103" CustomerName="SHAPEG_LFWETC" />
+  <PadType Code="111" Name="SHAPEG_LFBRECT" CustomerCode="111" CustomerName="SHAPEG_LFBRECT" />
+  <PadType Code="112" Name="SHAPEG_LFBCIRCLE" CustomerCode="112" CustomerName="SHAPEG_LFBCIRCLE" />
+  <PadType Code="113" Name="SHAPEG_LFBETC" CustomerCode="113" CustomerName="SHAPEG_LFBETC" />
+  <PadType Code="123" Name="SHAPEG_BDRETC" CustomerCode="123" CustomerName="SHAPEG_BDRETC" />
+  <PadType Code="201" Name="SHAPEG_TAPEAREA" CustomerCode="201" CustomerName="SHAPEG_TAPEAREA" />
+  <PadType Code="202" Name="SHAPEG_TAPEAREA_R" CustomerCode="202" CustomerName="SHAPEG_TAPEAREA_R" />
+  <PadType Code="203" Name="SHAPEG_TAPEAREA_U" CustomerCode="203" CustomerName="SHAPEG_TAPEAREA_U" />
+  <PadType Code="204" Name="SHAPEG_TAPEAREA_D" CustomerCode="204" CustomerName="SHAPEG_TAPEAREA_D" />
+  <PadType Code="210" Name="SHAPEG_CORNER" CustomerCode="210" CustomerName="SHAPEG_CORNER" />
+  <PadType Code="211" Name="SHAPEG_BONDLAND" CustomerCode="211" CustomerName="SHAPEG_BONDLAND" />
+  <PadType Code="212" Name="SHAPEG_GLUEA" CustomerCode="212" CustomerName="SHAPEG_GLUEA" />
+</CustomerCodes>

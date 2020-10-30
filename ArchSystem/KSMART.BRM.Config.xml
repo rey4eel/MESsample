@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <MachineType value="SPI" />
+  <AlertMaxCount value="5" />
+  <AlertDelay value="5000" />
+  <AOI_Setting>
+    <RemoteCommandResponseTimeout value="30000" />
+    <JobChangeTimeout value="60000" />
+    <UseJobWatcher value="0" />
+    <Machine_BAIN_R value="Script" />
+    <Machine_LCHK_R value="Script" />
+    <Machine_PCHK_R value="Script" />
+    <Machine_EICR_R value="Script" />
+    <Machine_BAOUT_R value="Script" />
+    <Review_PCHK_R value="Script" />
+    <Review_EICR_R value="Script" />
+    <Repair_PCHK_R value="Script" />
+    <Repair_EICR_R value="Script" />
+  </AOI_Setting>
+  <SPI_Setting>
+    <PCB_IN value="0" />
+    <PCB_OUT value="0" />
+    <RemoteCommandResponseTimeout value="30000" />
+    <JobChangeTimeout value="60000" />
+    <UseJobWatcher value="0" />
+    <Machine_NIP value="Script" />
+    <Machine_BARACK value="Script" />
+    <Machine_IPO value="Script" />
+    <ReviewWaitResponse value="0" />
+    <ReviewResponseTimeout value="30" />
+    <Review_WACK value="Script" />
+    <ONOFFBUTTON value="0" />
+  </SPI_Setting>
+  <Validate>
+    <Platform_Value value="x64" />
+    <Version value="1" />
+    <Version_Value value="2.6.0.8" />
+    <SocketClient_Name value="0" />
+  </Validate>
+  <AOI_InspectResult>
+    <InspectionResultWaitTime value="30000" />
+    <ParallelProcess value="1" />
+    <CollectInvaildResult value="1" />
+    <CoordinateOrigin value="TopLeft" />
+    <ForeignKey value="0" />
+    <PCBMajorDefectInfoType value="Priority" />
+    <PanelGroupMajorDefectInfoType value="Priority" />
+    <PanelMajorDefectInfoType value="Priority" />
+    <DisableAutoInspectionResultGeneration value="0" />
+    <SourceXML value="C:\Kohyoung\KSMART Business Rules Management\XML\AOI_Sample.xml" />
+    <SourceXMLExportType value="RECENT" />
+    <CreateDataSourceType value="Stored" />
+    <Coordinate value="TopLeft" />
+    <DisableAutoCreateDatasource value="0" />
+    <DataSourceXML value="C:\Kohyoung\KSMART Business Rules Management\XML\AOI_Sample.xml" />
+    <DataSourceXMLExportType value="RECENT" />
+    <Collect value="0" />
+    <CollectResult value="0" />
+    <CollectCustomerProperty value="0" />
+    <Component value="0" />
+    <Defect value="1" />
+    <CustomerCodes value="0" />
+    <Image2DComponentDrawDefectInfoType value="All" />
+    <ComponentMajorDefectInfoType value="Priority" />
+    <Image2DDefectDrawROIBoderColor value="-65536" />
+    <Image2DDefectDrawROIBorderWidth value="1" />
+    <OCVReferenceType value="Local" />
+    <Server value="127.0.0.1" />
+    <DataSource value="KY_AOI" />
+    <UserID value="sa" />
+    <Password value="koh1234" />
+    <ResultDBDataSource value="KY_AOI" />
+  </AOI_InspectResult>
+  <SPI_InspectResult>
+    <StructureFileReadTimeout value="30000" />
+    <ParallelProcess value="1" />
+    <CollectInvaildResult value="1" />
+    <PCBMajorDefectInfoType value="Priority" />
+    <ArrayMajorDefectInfoType value="Priority" />
+    <PanelMajorDefectInfoType value="Priority" />
+    <ComponentMajorDefectInfoType value="Priority" />
+    <QueuePath value="S:" />
+    <DefectQueuePath value="C:\Kohyoung\DVQueue" />
+    <VerificationDataAutoDeleteFiles value="1" />
+    <VerificationDataRetentionPeriod value="14" />
+    <DisableAutoInspectionResultGeneration value="0" />
+    <SourceXML value="C:\Kohyoung\KSMART Business Rules Management\XML\SPI_Sample.xml" />
+    <SourceXMLVerificationData value="0" />
+    <SourceXMLVerificationDataOption value="0" />
+    <SourceXMLVerificationType value="DefectView" />
+    <SourceXMLDefectResult value="PASS" />
+    <CreateDataSourceType value="Stored" />
+    <DisableAutoCreateDatasource value="0" />
+    <DataSourceXML value="C:\KohYoung\KSMART Business Rules Management\XML\SPI_Sample.xml" />
+    <DataSourceXMLVerificationData value="0" />
+    <DefectQueuePathLock value="0" />
+    <Collect value="0" />
+    <ArrayUpdateDefectResult value="0" />
+    <PanelUpdateDefectResult value="1" />
+    <Component value="1" />
+    <Pad value="1" />
+    <ComponentUpdateDefectResult value="0" />
+    <CollectResult value="0" />
+    <CollectCustomerProperty value="0" />
+    <CustomerCodes value="1" />
+    <ComponentMajorDefectInfo value="1" />
+    <DataSourceXMLLane value="0" />
+    <DataSourceXMLQueue value="8" />
+    <DataSourceXMLVerificationDataOption value="0" />
+    <DataSourceXMLVerificationType value="DefectView" />
+    <DataSourceXMLDefectResult value="PASS" />
+    <DataFolderPath value="C:\KohYoung\KY-3030\Data" />
+  </SPI_InspectResult>
+  <Log>
+    <RetentionPeriod value="30" />
+    <MaxRowCount value="1000" />
+    <AutoScroll value="0" />
+  </Log>
+  <AOI_FileExport>
+    <Encoding value="UTF8" />
+    <MachineGoodDestPath value="C:\KohYoung\Autoexport\Machine Good" />
+    <MachineNGDestPath value="C:\KohYoung\Autoexport\Machine NG" />
+    <ReviewPassDestPath value="C:\KohYoung\KSMART Business Rules Management\Review" />
+    <ReviewNGDestPath value="C:\KohYoung\KSMART Business Rules Management\Review" />
+    <RepairDestPath value="C:\KohYoung\KSMART Business Rules Management\Repair" />
+    <MachineGoodExport value="0" />
+  </AOI_FileExport>
+  <SPI_FileExport>
+    <Encoding value="UTF8" />
+    <MachineGoodDestPath value="C:\KohYoung\KSMART Business Rules Management\Machine" />
+    <MachineNGDestPath value="C:\KohYoung\KSMART Business Rules Management\Machine" />
+    <ReviewDestPath value="C:\KohYoung\KSMART Business Rules Management\Review" />
+  </SPI_FileExport>
+  <Plugins>
+    <Plugins.RMSAgent value="0" />
+    <Plugins.ReviewFeedBack value="0" />
+    <Plugins.JobLink value="0" />
+    <Plugins.MessageFowarding value="1" />
+    <Plugins.iTAC value="0" />
+    <Plugins.SECSGEM value="0" />
+    <Plugins.ASYSPulse value="0" />
+    <Plugins.PanasoniciLNB value="0" />
+    <Plugins.PanasonicPLC value="0" />
+    <Plugins.OmronPLC value="0" />
+    <Plugins.MitsubishiPLC value="0" />
+    <Plugins.Modbus value="0" />
+    <Plugins.PreConveyor value="0" />
+    <Plugins.PostConveyor value="0" />
+    <Plugins.NGBuffer value="0" />
+    <Plugins.CoolingBuffer value="0" />
+    <Plugins.PanasonicLNB value="0" />
+    <Plugins.NetServer value="0" />
+    <Plugins.MessageForwarding value="0" />
+    <Plugins.ASYS_OIC value="0" />
+    <Plugins.PanasonicAPC_FB value="0" />
+    <Plugins.ASM_OIB value="0" />
+    <Plugins.PanasonicAPC_FF value="0" />
+    <Plugins.PanasonicAPC_MFB value="0" />
+    <Plugins.XGemPro value="0" />
+    <Plugins.CIMConnect value="0" />
+    <Plugins.ClosedLoop value="0" />
+    <Plugins.BadMarkFeedBack value="0" />
+    <Plugins.FujiNexim value="0" />
+    <Plugins.HanwhaTM2M_AC value="0" />
+    <Plugins.SamsungGamma />
+  </Plugins>
+  <CustomerName value="Arch Systems" />
+  <BusinessRulesVersion value="1.1" />
+  <Account_Setting>
+    <UseAccount value="1" />
+    <Toolbox_StartService value="1" />
+    <Toolbox_StopService value="1" />
+    <Toolbox_RestartService value="1" />
+    <Toolbox_ShutDown value="0" />
+    <Toolbox_SaveBusinessRules value="1" />
+    <Toolbox_Validate value="1" />
+    <Toolbox_ApplyBusinessRules value="1" />
+    <Toolbox_ApplyAddon value="1" />
+    <Toolbox_CreateBusinessRules value="1" />
+    <Toolbox_DefaultBusinessRules value="0" />
+    <Toolbox_Tool value="0" />
+    <Toolbox_LogViewer value="0" />
+    <Toolbox_SaveIssueReport value="1" />
+    <SocketServer_Add value="0" />
+    <SocketServer_Edit value="0" />
+    <SocketServer_Remove value="0" />
+    <SocketServer_Simulator value="0" />
+    <SocketServer_Disconnect value="0" />
+    <SocketServer_Reset value="0" />
+    <SocketClient_Add value="0" />
+    <SocketClient_Edit value="0" />
+    <SocketClient_Remove value="0" />
+    <SocketClient_Simulator value="0" />
+    <SocketClient_PingTest value="0" />
+    <SocketClient_Connect value="0" />
+    <SocketClient_Disconnect value="0" />
+    <SocketClient_Close value="0" />
+    <SerialPort_Add value="0" />
+    <SerialPort_Edit value="0" />
+    <SerialPort_Remove value="0" />
+    <SerialPort_Simulator value="0" />
+    <SerialPort_Reset value="0" />
+    <Tab_CustomerProperty value="1" />
+    <Tab_History value="1" />
+    <Tab_Setting value="0" />
+    <Tab_KeyValue value="0" />
+    <Tab_Library value="1" />
+    <Tab_FileExport value="0" />
+    <Tab_Script value="0" />
+    <Tab_Codes value="1" />
+    <Tab_InspectionResult value="1" />
+    <Tab_Validate value="0" />
+    <Tab_Plugins value="0" />
+    <Tab_Log value="1" />
+    <Tab_Test value="0" />
+    <Tab_Analysis value="0" />
+    <Tab_Info value="1" />
+    <Plugins_Plugins.RMSAgent value="0" />
+    <Plugins_Plugins.ReviewFeedBack value="0" />
+    <Plugins_Plugins.JobLink value="0" />
+    <Plugins_Plugins.MessageFowarding value="1" />
+    <Plugins_Plugins.iTAC value="0" />
+    <Plugins_Plugins.SECSGEM value="0" />
+    <Plugins_Plugins.ASYSPulse value="0" />
+    <Plugins_Plugins.PanasoniciLNB value="0" />
+    <Plugins_Plugins.PanasonicLNB value="0" />
+    <Plugins_Plugins.PanasonicPLC value="0" />
+    <Plugins_Plugins.OmronPLC value="0" />
+    <Plugins_Plugins.MitsubishiPLC value="0" />
+    <Plugins_Plugins.Modbus value="0" />
+    <Plugins_Plugins.PreConveyor value="0" />
+    <Plugins_Plugins.PostConveyor value="0" />
+    <Plugins_Plugins.NGBuffer value="0" />
+    <Plugins_Plugins.CoolingBuffer value="0" />
+    <Plugins_Plugins.NetServer value="0" />
+    <Tab_CustomerDataGrid value="0" />
+    <Plugins_Plugins.MessageForwarding value="0" />
+    <Plugins_Plugins.ASYS_OIC value="0" />
+    <Plugins_Plugins.PanasonicAPC_FB value="0" />
+    <Plugins_Plugins.ASM_OIB value="0" />
+    <Plugins_Plugins.PanasonicAPC_FF value="0" />
+    <Plugins_Plugins.PanasonicAPC_MFB value="0" />
+    <Plugins_Plugins.XGemPro value="0" />
+    <Plugins_Plugins.CIMConnect value="0" />
+    <Plugins_Plugins.ClosedLoop value="0" />
+    <Plugins_Plugins.BadMarkFeedBack value="0" />
+    <Plugins_Plugins.FujiNexim value="0" />
+    <Plugins_Plugins.HanwhaTM2M_AC value="0" />
+  </Account_Setting>
+  <Plugins.MessageFowarding>
+    <Name value="1" />
+    <ReceiverType value="SocketServer" />
+    <Receiver value="SPI" />
+    <SenderType value="SocketClient" />
+    <Sender value="KYMES" />
+    <ConditionParser value="None" />
+    <MessageParser value="None" />
+  </Plugins.MessageFowarding>
+  <Plugins.MessageFowarding>
+    <Name value="2" />
+    <ReceiverType value="SocketClient" />
+    <Receiver value="KYMES" />
+    <SenderType value="SocketServer" />
+    <Sender value="SPI" />
+    <ConditionParser value="None" />
+    <MessageParser value="None" />
+  </Plugins.MessageFowarding>
+  <Plugins.MessageFowarding>
+    <Name value="3" />
+  </Plugins.MessageFowarding>
+  <Plugins.MessageFowarding>
+    <Name value="4" />
+  </Plugins.MessageFowarding>
+  <CustomerPropertySchema value="C:\KohYoung\KSMART Business Rules Management\XML\CustomerProperty.xml" />
+  <CustomerProperty>
+    <SPI_Result value="C:\KohYoung\KSMART Business Rules Management\Property\SPI_Result.xsl" />
+    <SPI_Status value="C:\KohYoung\KSMART Business Rules Management\Property\SPI_Status.xsl" />
+    <WebServiceUse value="1" />
+    <WebServiceLane value="01" />
+    <WebServiceEndpoint value="http://127.0.0.1/webservice.asmx" />
+    <WebServiceEvents value="StatusChange, InspectStart, InspectEnd, ReviewStart, ReviewEnd" />
+    <WebServiceAddress value="http://localhost:80/webservice.asmx" />
+    <SPI_StatusChange value="C:\KohYoung\KSMART Business Rules Management\Property\SPI_StatusChange.xsl" />
+    <SPI_InspectStart value="C:\KohYoung\KSMART Business Rules Management\Property\SPI_InspectStart.xsl" />
+    <SPI_InspectEnd value="C:\KohYoung\KSMART Business Rules Management\Property\SPI_InspectEnd.xsl" />
+    <SPI_ReviewStart value="C:\KohYoung\KSMART Business Rules Management\Property\SPI_ReviewStart.xsl" />
+    <SPI_ReviewEnd value="C:\KohYoung\KSMART Business Rules Management\Property\SPI_ReviewEnd.xsl" />
+    <HeartbeatInterval value="60" />
+    <QueueRetention value="3" />
+    <SPI_Heartbeat value="C:\KohYoung\KSMART Business Rules Management\Property\SPI_Heartbeat.xsl" />
+    <QueueUse value="1" />
+    <WebServiceSections value="Count, Defect, Condition, Measurement" />
+    <InspectEndSections value="Count, Defect, Condition, Measurement" />
+    <ReviewEndSections value="Count, Defect, Condition, Measurement" />
+    <InspectEndContents value="Count, Defect, Condition, Measurement" />
+    <ReviewEndContents value="Count, Defect, Condition, Measurement" />
+    <WebServiceContents value="Count, Defect, Condition, Measurement" />
+    <HeartbeatUse value="1" />
+  </CustomerProperty>
+  <Connectivity_Setting>
+    <UseConnectivity value="0" />
+    <ConnectivityUrl value="http://127.0.0.1:9099" />
+  </Connectivity_Setting>
+  <Remoting_Setting>
+    <UseRemoting value="0" />
+    <RemotingUrl value="http://127.0.0.1:9099" />
+  </Remoting_Setting>
+  <Service_Script>
+    <CustomerProperty_ButtonClick value="C:\KohYoung\KSMART Business Rules Management\Script\CustomerProperty_ButtonClick.cs" />
+    <Service_Start value="C:\KohYoung\KSMART Business Rules Management\Script\Service_Start.cs" />
+    <Service_Stop value="C:\KohYoung\KSMART Business Rules Management\Script\Service_Stop.cs" />
+    <CustomerProperty_ValueChanged value="C:\KohYoung\KSMART Business Rules Management\Script\CustomerProperty_ValueChanged.cs" />
+  </Service_Script>
+  <AOI_Validate>
+    <AOI_InspectResultDatabase value="0" />
+    <AOIMachine_Option_WaitNGDBSaveDone value="0" />
+  </AOI_Validate>
+  <SPI_Script>
+    <Machine_InspectionResultCompleted value="C:\KohYoung\KSMART Business Rules Management\Script\SPI_Machine_InspectionResultCompleted.cs" />
+    <Machine_StatusChanged value="C:\KohYoung\KSMART Business Rules Management\Script\SPI_Machine_StatusChanged.cs" />
+    <Machine_UserAction value="C:\KohYoung\KSMART Business Rules Management\Script\SPI_Machine_UserAction.cs" />
+    <Review_Completed value="C:\KohYoung\KSMART Business Rules Management\Script\SPI_Review_Completed.cs" />
+    <Machine_UserChanged value="C:\KohYoung\KSMART Business Rules Management\Script\SPI_Machine_UserChanged.cs" />
+    <Machine_ReadBarcode value="C:\KohYoung\KSMART Business Rules Management\Script\SPI_Machine_ReadBarcode.cs" />
+    <Review_BoardLoad value="C:\KohYoung\KSMART Business Rules Management\Script\SPI_Review_BoardLoad.cs" />
+  </SPI_Script>
+  <SPI_Codes>
+    <CustomerCodes value="C:\KohYoung\KSMART Business Rules Management\XML\SPI_CustomerCodes.xml" />
+  </SPI_Codes>
+  <Import_Script>
+    <Import1 value="C:\KohYoung\KSMART Business Rules Management\Script\SPI_WebService.cs" />
+    <Import2 value="C:\KohYoung\KSMART Business Rules Management\Script\Queue.cs" />
+  </Import_Script>
+  <SocketServer>
+    <ServerType value="SPIGUI" />
+    <Name value="SPI" />
+    <Port value="8019" />
+    <BufferSize value="8192" />
+    <ReceiveType value="Always" />
+    <ReceiveDataType value="Message" />
+    <Encoding value="Default" />
+    <AutoDisconnect value="1" />
+    <ConnectionTypeValidate value="1" />
+    <ClientDenied value="1" />
+    <UseSendSTX value="1" />
+    <SendSTX value="{STX}" />
+    <UseSendETX value="1" />
+    <SendETX value="{ETX}" />
+    <ReceiveMessageParser value="StartEnd" />
+    <UseReceiveSTX value="1" />
+    <ReceiveSTX value="{STX}" />
+    <UseReceiveETX value="1" />
+    <ReceiveETX value="{ETX}" />
+    <LoggingSendReceive value="1" />
+    <LoggingEvent value="1" />
+    <LoggingError value="1" />
+    <LoggingHex value="0" />
+  </SocketServer>
+  <SocketServer>
+    <ServerType value="SPIReview" />
+    <Name value="REVIEW" />
+    <Port value="16375" />
+    <BufferSize value="8192" />
+    <ReceiveType value="Always" />
+    <ReceiveDataType value="Message" />
+    <Encoding value="Default" />
+    <AutoDisconnect value="1" />
+    <ConnectionTypeValidate value="1" />
+    <ClientDenied value="1" />
+    <UseSendSTX value="1" />
+    <SendSTX value="{STX}" />
+    <UseSendETX value="1" />
+    <SendETX value="{ETX}" />
+    <ReceiveMessageParser value="StartEnd" />
+    <UseReceiveSTX value="1" />
+    <ReceiveSTX value="{STX}" />
+    <UseReceiveETX value="1" />
+    <ReceiveETX value="{ETX}" />
+    <LoggingSendReceive value="1" />
+    <LoggingEvent value="1" />
+    <LoggingError value="1" />
+    <LoggingHex value="0" />
+  </SocketServer>
+
+  <Line />
+</Settings>

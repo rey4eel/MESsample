@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Property>
+
+<!-- Web Service -->
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category></Category>
+    <Caption>Web Service</Caption>
+    <Name>WebService</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Check</Type>
+    <Section></Section>
+    <Category>WebService</Category>
+    <Name>WebServiceUse</Name>
+    <Caption>Use</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>LookUp</Type>
+    <Category>WebService</Category>
+    <Caption>Lane</Caption>
+    <Name>WebServiceLane</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values><![CDATA[0=Front,1=Rear,01=Both]]></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>CheckedComboBox</Type>
+    <Category>WebService</Category>
+    <Caption>Events</Caption>
+    <Name>WebServiceEvents</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values><![CDATA[StatusChange,InspectStart,InspectEnd,ReviewStart,ReviewEnd]]></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Text</Type>
+    <Category>WebService</Category>
+    <Caption>Address</Caption>
+    <Name>WebServiceAddress</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>Button</Type>
+    <Category>WebService</Category>
+    <Caption>Click here to send test message</Caption>
+    <Name>WebServiceTest</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[FontSize=,FontStyle=,FontColor=Gray,HorzAlignment=1,VAlignment=]]></Properties>
+    <Values><![CDATA[]]></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+
+<!-- Definition -->
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category></Category>
+    <Caption>Definition</Caption>
+    <Name>Definition</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>True</Auth>
+</Row>
+<!-- Web Service -->
+<Row>
+    <Section></Section>
+    <Type>Category</Type>
+    <Category>Definition</Category>
+    <Caption>Web Service</Caption>
+    <Name>DefinitionWebService</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>True</Auth>
+</Row>
+<Row>
+    <Type>Check</Type>
+    <Section></Section>
+    <Category>DefinitionWebService</Category>
+    <Name>HeartbeatUse</Name>
+    <Caption>Heartbeat</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Numeric</Type>
+    <Section></Section>
+    <Category>DefinitionWebService</Category>
+    <Name>HeartbeatInterval</Name>
+    <Caption>Interval (sec)</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Zero</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Check</Type>
+    <Section></Section>
+    <Category>DefinitionWebService</Category>
+    <Name>QueueUse</Name>
+    <Caption>Queue</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Numeric</Type>
+    <Section></Section>
+    <Category>DefinitionWebService</Category>
+    <Name>QueueRetention</Name>
+    <Caption>Retention (days)</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Zero</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Type>Numeric</Type>
+    <Section></Section>
+    <Category>DefinitionWebService</Category>
+    <Name>QueuePending</Name>
+    <Caption>Pending Queue</Caption>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section></Section>
+    <Type>CheckedComboBox</Type>
+    <Category>DefinitionWebService</Category>
+    <Caption>Contents</Caption>
+    <Name>WebServiceContents</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values><![CDATA[Count,Defect,Condition,Measurement]]></Values>
+    <ValidationRuleType>None</ValidationRuleType>
+    <AllowEdit>True</AllowEdit>
+    <Keep>True</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section>SPI</Section>
+    <Type>XSLT</Type>
+    <Category>DefinitionWebService</Category>
+    <Caption>Heartbeat XSLT</Caption>
+    <Name>SPI_Heartbeat</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section>SPI</Section>
+    <Type>XSLT</Type>
+    <Category>DefinitionWebService</Category>
+    <Caption>StatusChange XSLT</Caption>
+    <Name>SPI_StatusChange</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section>SPI</Section>
+    <Type>XSLT</Type>
+    <Category>DefinitionWebService</Category>
+    <Caption>InspectStart XSLT</Caption>
+    <Name>SPI_InspectStart</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section>SPI</Section>
+    <Type>XSLT</Type>
+    <Category>DefinitionWebService</Category>
+    <Caption>InspectEnd XSLT</Caption>
+    <Name>SPI_InspectEnd</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section>SPI</Section>
+    <Type>XSLT</Type>
+    <Category>DefinitionWebService</Category>
+    <Caption>ReviewStart XSLT</Caption>
+    <Name>SPI_ReviewStart</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+<Row>
+    <Section>SPI</Section>
+    <Type>XSLT</Type>
+    <Category>DefinitionWebService</Category>
+    <Caption>ReviewEnd XSLT</Caption>
+    <Name>SPI_ReviewEnd</Name>
+    <ToolTip><![CDATA[]]></ToolTip>
+    <Properties><![CDATA[]]></Properties>
+    <Values></Values>
+    <ValidationRuleType>Required</ValidationRuleType>
+    <AllowEdit>False</AllowEdit>
+    <Keep>False</Keep>
+    <Auth>False</Auth>
+</Row>
+
+</Property>
