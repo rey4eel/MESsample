@@ -1,5 +1,5 @@
 # MESsample
-This is the sample of developing business logic in my current job
+
 
 These are the output files from the existing job.
 The main application is consuming the zip file and place them in the user folder.
